@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+
+
+
+@media (max-width: 1440px) {
+    body{
+        background-color: green;
+    }
+    div::after{
+        content: 'Screen size : 1440px';
+    }
+}
+
+@media (max-width: 1024px) {
+    body{
+        background-color: rgb(137, 114, 18)
+    }
+    div::after{
+        content: 'Screen size : 1024px';
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: aquamarine;
+    }
+    div::after{
+        content: 'Screen size : 768px';
+    }
+}
+
+@media (max-width: 425px) {
+    body{
+        background-color: maroon;
+    }
+    div::after{
+        content: 'Screen size : 425px';
+    }
+}
